@@ -23,6 +23,12 @@ project "yaml-cpp"
 		"YAML_CPP_STATIC_DEFINE"
 	}
 
+  	filter "system:macosx"
+		systemversion "14.0"
+		cppdialect "C++17"
+		staticruntime "off"
+
+
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++17"

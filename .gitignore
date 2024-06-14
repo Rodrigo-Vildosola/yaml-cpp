@@ -5,3 +5,7 @@ bin
 bin-int
 yaml-cpp.vcxproj
 yaml-cpp.vcxproj.filters
+<<<<<<< HEAD
+=======
+Makefile
+>>>>>>> 2fb0b4e129c1b0481fa670eb40033982adb5272c
